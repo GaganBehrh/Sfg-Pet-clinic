@@ -38,6 +38,6 @@
     </build>
     <scm>
         <developerConnection>scm:git:git@github.com:GaganBehrh/spring5webapp.git</developerConnection>
-    <tag>sfg-pet-clinic-0.0.3</tag>
+    <tag>sfg-pet-clinic-0.0.4</tag>
   </scm>
 </project>
