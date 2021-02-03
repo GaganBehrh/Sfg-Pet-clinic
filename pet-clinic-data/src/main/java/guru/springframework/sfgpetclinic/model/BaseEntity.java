@@ -1,12 +1,8 @@
 package guru.springframework.sfgpetclinic.model;
 
-import java.time.LocalDate;
-
-public class Pet {
-    private PetType petType;
-    private Owner owner;
-    private LocalDate birthDate;
+public class BaseEntity {
     private Long id;
+
     public Long getId() {
         return id;
     }
