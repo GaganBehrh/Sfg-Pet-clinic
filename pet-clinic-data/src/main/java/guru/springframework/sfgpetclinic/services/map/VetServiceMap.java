@@ -8,7 +8,7 @@ import java.util.Set;
 public class VetServiceMap extends AbstractMapService<Vet,Long> implements VetService<Vet,Long> {
     @Override
     public Set<Vet> findAll() {
-        return super.findALL();
+        return super.findAll();
     }
 
     @Override

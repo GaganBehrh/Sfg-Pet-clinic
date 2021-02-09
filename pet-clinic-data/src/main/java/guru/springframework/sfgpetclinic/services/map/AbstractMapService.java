@@ -6,7 +6,7 @@ public class AbstractMapService <T extends BaseEntity,ID extends Long>
 {
     protected Map<Long,T> map = new HashMap<>();
 
-    Set<T> findALL()
+    Set<T> findAll()
     {
         return new HashSet<>(map.values());
     }
